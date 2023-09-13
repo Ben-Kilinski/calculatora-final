@@ -12,7 +12,7 @@ function calculate(button) {
         screenDisplay.textContent = "."
     }
     else if (digit == "="){
-        console.log(accumulativeCalculation)
+        // console.log(accumulativeCalculation)
         screenDisplay.textContent = eval(accumulativeCalculation)
     }
     else {
